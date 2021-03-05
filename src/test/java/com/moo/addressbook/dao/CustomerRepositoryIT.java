@@ -30,7 +30,7 @@ class CustomerRepositoryIT {
         // given
         String requestedSurname = "belcher";
         CustomerAddress address = new CustomerAddress(1L, "addy1", "addy2", "ABC XYZ");
-        String mixedCaseSurname = "belcher";
+        String mixedCaseSurname = "BelCher";
         Customer customerOne = new Customer(1L, "Miss", "Tina",
                 mixedCaseSurname, "00000000000");
         String upperCasedSurname = requestedSurname.toUpperCase();
